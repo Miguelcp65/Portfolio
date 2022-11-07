@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import img2 from '../../assets/img2.jpeg'
-import { FaAward } from 'react-icons/fa'
+import { FaAward, FaGraduationCap } from 'react-icons/fa'
 import { AiFillFolderOpen } from 'react-icons/ai'
 
 const About = () => {
@@ -21,24 +21,24 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2 Year</small>
+              <small>1 Year</small>
             </article>
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>2 Year</small>
+              <FaGraduationCap className="about__icon" />
+              <h5>Web Development</h5>
+              <small>CTeSP</small>
             </article>
             <article className="about__card">
               <AiFillFolderOpen className="about__icon" />
               <h5>Projects</h5>
-              <small>5+ Completed</small>
+              <small>5+ Completed/Scheduled</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            officia ea a ipsum maiores magnam dolorem, nisi molestiae. Quam eos
-            voluptatum dignissimos non rem, reprehenderit consectetur et nemo
-            perspiciatis eveniet.
+            As a young adult studying a dregree in Computer Science and
+            Engineering, I have ambition to acquire more knowledge in the area
+            of Web ​​Development, being this the area that I intend to
+            professionalize myself.
           </p>
 
           <a href="#contact" className="btn btn-primary">
