@@ -27,7 +27,7 @@ const data = [
     github: 'https://github.com/Miguelcp65/WineCulture',
     demo: 'https://dribble.com/Alien_pixels',
   },
-]
+];
 
 const Portfolio = () => {
   return (
