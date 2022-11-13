@@ -34,7 +34,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-      <div className="container portfolio__container">
+      <div data-aos="zoom-in-up" data-aos-duration="950" className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className="portfolio__item">

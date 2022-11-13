@@ -64,7 +64,11 @@ const Contact = () => {
       <h2>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <article
+            data-aos="zoom-in-right"
+            data-aos-duration="800"
+            className="contact__option"
+          >
             <MdEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>miguel.acpereira26@gmail.com</h5>
@@ -72,7 +76,11 @@ const Contact = () => {
               Send a Message
             </a>
           </article>
-          <article className="contact__option">
+          <article
+            data-aos="zoom-in-right"
+            data-aos-duration="1100"
+            className="contact__option"
+          >
             <AiFillLinkedin className="contact__option-icon" />
             <h4>Linkedin</h4>
             <h5>Miguel Pereira</h5>
@@ -83,7 +91,11 @@ const Contact = () => {
               Send a Message
             </a>
           </article>
-          <article className="contact__option">
+          <article
+            data-aos="zoom-in-right"
+            data-aos-duration="1400"
+            className="contact__option"
+          >
             <IoLogoWhatsapp className="contact__option-icon" />
             <h4>Whatsapp Number</h4>
             <h5>919748568</h5>
@@ -95,7 +107,12 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form
+          data-aos="fade-left"
+          data-aos-duration="950"
+          ref={form}
+          onSubmit={sendEmail}
+        >
           <input
             type="text"
             name="name"
