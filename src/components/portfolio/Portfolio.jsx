@@ -16,16 +16,16 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'CooknShare',
-    github: 'https://github.com/Miguelcp65/cookandshare',
-    demo: 'https://dribble.com/Alien_pixels',
+    title: 'Fitness App',
+    github: 'https://github.com/Miguelcp65/FitnessApp',
+    demo: 'https://fitness-app-mu-three.vercel.app/',
   },
   {
     id: 3,
     image: IMG3,
     title: 'WineCulture',
     github: 'https://github.com/Miguelcp65/WineCulture',
-    demo: 'https://dribble.com/Alien_pixels',
+    demo: '#',
   },
 ];
 
@@ -46,9 +46,9 @@ const Portfolio = () => {
                 <a className="btn" href={github} target="_blank">
                   Github
                 </a>
-                {/* <a className="btn btn-primary" href={demo} target="_blank">
-                  Live Demo (In Progress)
-                </a> */}
+                {<a className="btn btn-primary" href={demo} target="_blank">
+                  Demo
+                </a> }
               </div>
             </article>
           )
