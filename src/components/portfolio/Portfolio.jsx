@@ -9,9 +9,9 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'MyTeam',
-    github: '',
-    demo: '#',
+    title: 'Portfolio V1',
+    github: 'https://github.com/Miguelcp65/Portfolio',
+    demo: 'https://portfolio-v1-gilt-six.vercel.app/',
   },
   {
     id: 2,
